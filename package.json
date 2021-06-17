@@ -1,0 +1,14 @@
+{
+  "name": "project_workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "davik",
+  "license": "MIT",
+  "private":"true",
+  "workspaces":["backend", "frontend"],
+  "scripts": {
+    "dev:back": "yarn workspaces run serve",
+    "dev2:back":"yarn workspace backend serve",
+    "dev:front": "yarn workspace frontend serve"
+  }
+}
