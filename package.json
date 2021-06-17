@@ -9,6 +9,7 @@
   "scripts": {
     "dev:back": "yarn workspaces run serve",
     "dev2:back":"yarn workspace backend serve",
-    "dev:front": "yarn workspace frontend serve"
+    "dev:front": "yarn workspace frontend serve",
+    "build": "yarn workspace front build"
   }
 }
